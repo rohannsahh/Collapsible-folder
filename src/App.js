@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import CompanyStructure from './component/CompanyStructure';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div className='flex flex-col  items-center justify-center'>
+   <h1 className="text-2xl font-bold m-6 text-center">Company Structure</h1>
+    <div className=" bg-gray-70 border p-3 rounded-lg w-full max-w-3xl shadow-lg ">
+          
+<CompanyStructure/>
     </div>
+  </div>
+   
   );
 }
 

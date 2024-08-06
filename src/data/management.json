@@ -1,0 +1,24 @@
+{
+    "name": "Management",
+    "children": [
+      { "name": "Founding Team", "type": "leaf", 
+      "details": [
+        { "name": "Rohan", "title": "CEO", "email": "rohan@example.com", "role": "Admin" },
+      { "name": "Rahul", "title": "CTO", "email": "rahul@example.com", "role": "Admin" },
+      { "name": "Ajay", "title": "C0O", "email": "ajay@example.com", "role": "Admin" }
+    ] 
+      
+    },
+      { "name": "Investors", "type": "leaf",
+       "details": [
+        { "name": "Sahil", "title": "Investor", "email": "sahil@example.com", "role": "Member" }
+    ] 
+    },
+      { "name": "Directors", "type": "leaf",
+       "details":[
+        { "name": "Palak", "title": "Director", "email": "palak@example.com", "role": "Admin" }
+    ] 
+    }
+    ]
+  }
+  

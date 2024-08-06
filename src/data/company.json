@@ -1,0 +1,6 @@
+{
+    "name": "Company",
+    "children": 
+    ["Management", "Employees"]
+  }
+  

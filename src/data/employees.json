@@ -1,0 +1,26 @@
+{
+    "name": "Employees",
+    "children": [
+      { "name": "Managers", "type": "leaf", 
+      "details": [
+        { "name": "Ajay", "title": "Manager", "email": "ajay@example.com", "role": "Member" }
+        ] 
+    },
+      { "name": "Sales", "type": "leaf", "details":
+       [
+        { "name": "Jasmeet", "title": "Sales Manager", "email": "jasmeet@example.com", "role": "Member"
+     }
+    ] 
+    },
+      { "name": "Developers", "type": "leaf", 
+      "details": [{ "name": "Rohan", "title": "Developer", "email": "rohan@example.com", "role": "Member" }
+    ] 
+    },
+      { "name": "Designers", "type": "leaf", 
+      "details": [{ "name": "Rahul", "title": "Developer", "email": "rahul@example.com", "role": "Member" 
+    }
+    ]
+     }
+    ]
+  }
+  
